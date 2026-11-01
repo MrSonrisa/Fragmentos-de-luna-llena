@@ -1,0 +1,30 @@
+
+{
+  "name": "fragmentos-luna",
+  "version": "1.0.0",
+  "description": "Aplicación de escritorio",
+  "main": "main.js",
+  "scripts": {
+    "start": "electron .",
+    "build": "electron-builder"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "devDependencies": {
+    "electron": "^45.2.1",
+    "electron-builder": "^26.18.0"
+  },
+  "build": {
+  "appId": "com.fragmentosluna.app",
+  "productName": "Fragmentos Luna",
+  "directories": {
+    "buildResources": "build"
+  },
+  "win": {
+    "target": "nsis",
+    "icon": "build/icon.ico"
+  }
+}
+}
