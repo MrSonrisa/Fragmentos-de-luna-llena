@@ -1,63 +1,80 @@
-# 🌕 Fragmentos de luna llena
+# 🌙 Fragmentos de Luna Llena
 
-Un juego atmosférico y relajado donde una imagen oculta se reconstruye
-a medida que superas minijuegos. Sin castigos por equivocarte: puedes
-fallar y volver a intentarlo.
+**Un universo por descubrir**
 
-> ⚡ Decodifica la imagen oculta ⚡
+Fragmentos de Luna Llena es una experiencia interactiva inspirada en el espacio, la música y los videojuegos. Explora sus minijuegos, disfruta del estudio musical y descubre un universo lleno de fragmentos.
 
 ## ✨ Características
 
-- **6 minijuegos** fáciles y relajantes. Cada victoria decodifica una parte
-  de la imagen, que empieza como ruido binario.
-- 🎸 **Tocar rock**: modo rítmico donde tocas las notas al llegar a la línea.
-  Algunas canciones están bloqueadas y hay que descubrir cómo desbloquearlas.
-- 🎹 **Estudio**: crea tu propia música tocando cuadros en una cuadrícula
-  (bajo, acordes y melodía) con control de BPM.
-- 🔊 Música de fondo y efectos, con opción de silenciar.
-- 📱 Diseño adaptable: funciona en celular y computadora.
+- 🌌 Interfaz temática espacial con animaciones.
+- 🎮 Minijuegos interactivos.
+- 🎸 Modo Tocar Rock.
+- 🎵 Estudio musical.
+- 📱 Versión móvil instalable como aplicación web progresiva (PWA).
+- 💻 Aplicación de escritorio para Windows.
+- 🌐 Acceso desde el navegador mediante GitHub Pages.
 
-## 🎮 Minijuegos
+## 🚀 Acceso directo
 
-1. **Luciérnagas**: toca las que flotan.
-2. **Eco de luces**: repite la secuencia.
-3. **Aros**: toca cuando el aro encaje.
-4. **Lluvia de estrellas**: atrapa las ✦ con la cesta.
-5. **Parejas**: encuentra las 3 parejas.
-6. **Constelación**: toca las estrellas en orden.
+**Juega en línea:**  
+https://mrsonrisa.github.io/Fragmentos-de-luna-llena/
 
-## 📥 Instalación
+## 📲 Cómo instalar en tu teléfono
 
-### Windows (instalador)
-1. Ve a la sección [Releases](../../releases) y descarga
-   `Fragmentos de luna llena Setup.exe`.
-2. Ejecuta el instalador y sigue los pasos.
-3. Abre el juego desde el acceso directo del escritorio o el menú Inicio.
+### Android
+1. Abre el enlace del proyecto en Google Chrome.
+2. Pulsa el menú de los tres puntos.
+3. Selecciona **Instalar aplicación** o **Agregar a pantalla de inicio**.
+4. Confirma la instalación.
+5. Abre Fragmentos de Luna Llena desde tu pantalla de inicio.
 
-> Windows puede mostrar un aviso de "SmartScreen" porque el instalador no
-> está firmado digitalmente. Pulsa **Más información → Ejecutar de todas formas**.
+### iPhone
+1. Abre el enlace en Safari.
+2. Pulsa el botón **Compartir**.
+3. Selecciona **Agregar a pantalla de inicio**.
+4. Pulsa **Agregar**.
 
-### Navegador (sin instalar)
-Descarga `index.html` y ábrelo con doble clic en tu navegador.
+## 💻 Cómo ejecutar en Windows
 
-## 🛠️ Compilar desde el código
+### Requisitos
+- Node.js y npm.
+- Git (opcional, para clonar el repositorio).
 
-Requiere [Node.js](https://nodejs.org) (versión LTS).
+### Ejecutar desde el código fuente
+1. Clona el repositorio:
+   ```bash
+   git clone https://github.com/MrSonrisa/Fragmentos-de-luna-llena.git
+   ```
+2. Entra a la carpeta:
+   ```bash
+   cd Fragmentos-de-luna-llena
+   ```
+3. Instala las dependencias:
+   ```bash
+   npm install
+   ```
+4. Inicia la aplicación:
+   ```bash
+   npm start
+   ```
 
+### Crear el instalador de Windows
+Ejecuta:
 ```bash
-npm install
-npm start          # probar el juego
-npm run build      # genera el instalador en la carpeta dist/
+npm run build
 ```
 
-## 🧰 Tecnologías
+El instalador se generará dentro de la carpeta `dist`.
 
-HTML5 · CSS3 · JavaScript · Canvas · Web Audio · Electron · electron-builder
+## 🛠️ Tecnologías
 
-## 📄 Licencia
+- HTML5
+- CSS3
+- JavaScript
+- Electron
+- Progressive Web App (PWA)
+- GitHub Pages
 
-Código bajo licencia MIT. Las imágenes y la música pueden tener
-derechos propios de sus autores.
+## 👨‍💻 Autor
 
----
-Hecho con 🌙 por Diego (AKA Yeyo)
+Diego (AKA Yeyo)
